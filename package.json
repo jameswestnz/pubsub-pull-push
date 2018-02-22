@@ -1,7 +1,7 @@
 {
   "name": "pubsub-pull-push",
   "version": "0.8.0",
-  "description": "Pull messages from a PubSub topic, proxy to another endpoint",
+  "description": "Pull messages from a PubSub topic, proxy to an endpoint",
   "main": "src/index.js",
   "author": "James West <james@jameswest.co.nz>",
   "license": "MIT",
