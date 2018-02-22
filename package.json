@@ -1,0 +1,16 @@
+{
+  "name": "pubsub-pull-push",
+  "version": "0.8.0",
+  "description": "Pull messages from a PubSub topic, proxy to another endpoint",
+  "main": "src/index.js",
+  "author": "James West <james@jameswest.co.nz>",
+  "license": "MIT",
+  "bin": {
+    "pubsub-pull-push": "./bin/pubsub-pull-push.js"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.16.4",
+    "r2": "^2.0.0",
+    "yargs": "^11.0.0"
+  }
+}
